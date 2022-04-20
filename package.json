@@ -1,0 +1,16 @@
+{
+  "name": "badges-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./app.js localhost 8080"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.2.0",
+    "dotenv": "^16.0.0"
+  }
+}
